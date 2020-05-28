@@ -1,0 +1,95 @@
+body{
+    background-color: #f3f4f5;
+    font-family: Arial, Georgia;
+    margin: 0 auto;
+}
+h1{
+    color: black;
+    font-family: Arial;
+    font-size: 24px;
+}
+.header{
+    border: 2px solid darkslateblue;
+    background-color: rgb(233, 219, 233);
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+}
+.header__menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header__menu a:hover{
+    background-color: rgb(153, 113, 190);
+    color: white;
+    border-radius: 10px;
+}
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner__text-hero{
+    color: #757575;
+    font-family: Georgia;
+    font-size: 18px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.title{
+    background-color: rgb(243, 203, 216);
+    border-left: 6px solid rgb(53, 4, 28);
+}
+.ingredientes{
+    color: #757575;
+    font-family: Georgia;
+    font-size: 18px;
+    display: flex;
+    margin: 20px;
+}
+.éxito{
+    display: flex;
+    margin: 10px;
+}
+.éxito__box{
+    display: flex;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 0pc 1px 8px 2px rgb(122, 112, 134);
+    border-radius: 10px;
+}
+.éxito__box img{
+    height: 200px; width: auto;
+    border-radius: 10px;
+}
+.éxito__body{
+    color: #757575;
+    font-family: Georgia;
+    font-size: 18px;
+    padding: 10px;
+}
+.footer{
+    color: black;
+    background-color: rgb(233, 219, 233);
+}
+.footer__sections{
+    padding: 10px;
+}
+.copyright p{
+    background-color: rgb(65, 43, 62);
+    color: white;
+    font-family: italic;
+    text-align: center;
+}
